@@ -15,5 +15,10 @@ public class Main {
         perpustakaan.pinjamBuku("Buku Kisah Tanah Jawa");
         perpustakaan.kembalikanBuku("Buku Novel Petualangan Banteng  Hitam Penguasa Negeri");
         perpustakaan.lihatDaftarBuku();
+        
+        PerpustakaanDigital pDigital = new PerpustakaanDigital();
+        pDigital.pinjamBuku("Buku Kisah Tanah Jawa");
+        pDigital.kembalikanBuku("Buku Petualangan Sherina");
+        pDigital.lihatDaftarBuku();
     }
 }

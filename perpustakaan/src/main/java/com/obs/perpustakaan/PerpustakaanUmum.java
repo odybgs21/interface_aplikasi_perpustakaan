@@ -10,7 +10,7 @@ package com.obs.perpustakaan;
  * @author D-16
  */
 public class PerpustakaanUmum implements Perpustakaan{
-    private String[] daftarBuku = {"Buku Kisah Tanah Jawa", "Buku Novel Petualangan Banteng Hitam Penguasa negeri", "Buku C"};
+    private String[] daftarBuku = {"Buku Kisah Tanah Jawa", "Buku Novel Petualangan Banteng Hitam Penguasa negeri", "Buku Petualangan Sherina"};
 
     @Override
     public void pinjamBuku(String judulBuku) {
